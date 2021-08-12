@@ -1,0 +1,25 @@
+name: stock
+channels:
+        - defaults
+        - conda-forge
+dependencies:
+        - jupyter
+        - jupyterlab
+        - ipywidgets
+        - pylint
+        - rope
+        - nodejs
+        - pandas
+        - numpy
+        - scipy
+        - cvxpy
+        - scikit-learn
+        - statsmodels
+        - matplotlib
+        - seaborn
+        - plotly
+        - lxml
+        - pip
+        - pip:
+                - pyportfolioopt
+                - sktime
